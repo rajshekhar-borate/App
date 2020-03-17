@@ -18,6 +18,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
+    app.callMethd();
   });
 
   it(`should have as title 'App'`, () => {
